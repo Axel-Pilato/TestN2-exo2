@@ -21,7 +21,7 @@ public class NumeralToRomanTest {
 
 	@Test
 	public void test() {
-		assertEquals(new String("X"), calc.getRoman(10));
+		assertEquals(new String("CV"), calc.getRoman(105));
 	}
 
 }
